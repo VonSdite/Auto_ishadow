@@ -70,7 +70,8 @@
 
 **从而实现需要科学上网时, 运行该项目代码即可科学上网** 
 
-**服务器账号和密码有时候不会一定行得通，有时候访问google.com的时候会出现这样的问题，<br>
+~~~
+服务器账号和密码有时候不会一定行得通，有时候访问google.com的时候会出现这样的问题，<br>
 弹出一段英文，意思大概是抛异常了：<br>
 500 Internal Privoxy Error
 Privoxy encountered an error while processing your request:
@@ -86,6 +87,7 @@ If you are the proxy administrator, please put the required file(s)in the (confd
 即可解决，然后重新刷新一下google.com
 
 完美科学上网！！
+~~~
 ---
 
 # 实现代码:
