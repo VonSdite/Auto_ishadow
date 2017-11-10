@@ -70,6 +70,22 @@
 
 **从而实现需要科学上网时, 运行该项目代码即可科学上网** 
 
+**服务器账号和密码有时候不会一定行得通，有时候访问google.com的时候会出现这样的问题，<br>
+弹出一段英文，意思大概是抛异常了：<br>
+500 Internal Privoxy Error
+Privoxy encountered an error while processing your request:
+Could not load template file no-server-data or one of its included components.
+Please contact your proxy administrator.
+If you are the proxy administrator, please put the required file(s)in the (confdir)/templates directory. The location of the (confdir) directory is specified in the main Privoxy config file. (It's typically the Privoxy install directory).
+
+而我看了两个多小时，本身我也不是搞cpp的，所以很纳闷，最后解决的是：换了一个服务器就行了。
+打开：http://ss.ishadowx.com/
+点击其中一个美食就行，会弹出一个二维码页面
+然后：右击你的电脑桌面右下角的shadowsocks的图标 --> 服务器 --> 扫描屏幕中的二维码
+
+即可解决，然后重新刷新一下google.com
+
+完美科学上网！！
 ---
 
 # 实现代码:
