@@ -1,10 +1,12 @@
 {
     "configs": [
         {
-            "server": "c.isxc.bid",
-            "server_port": "14425",
-            "password": "89794340",
+            "server": "jpa.isxa.bid",
+            "server_port": "15038",
+            "password": "54866922",
             "method": "aes-256-cfb",
+            "plugin": "",
+            "plugin_opts": "",
             "remarks": "",
             "timeout": 5
         }

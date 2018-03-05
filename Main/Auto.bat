@@ -26,31 +26,31 @@ if %errorlevel%==6 goto SingaporeC
 if %errorlevel%==7 goto UsaA
 
 :JapanA
-Japan_A_shadowsocks.py
+run_shadowsocks.py 1
 goto end
 
 :JapanB
-Japan_B_shadowsocks.py
+run_shadowsocks.py 2
 goto end
 
 :JapanC
-Japan_C_shadowsocks.py
+run_shadowsocks.py 3
 goto end
 
 :SingaporeA
-Singapore_A_shadowsocks.py
+run_shadowsocks.py 4
 goto end
 
 :SingaporeB
-Singapore_B_shadowsocks.py
+run_shadowsocks.py 5
 goto end
 
 :SingaporeC
-Singapore_C_shadowsocks.py
+run_shadowsocks.py 6
 goto end
 
 :UsaA
-USA_A_shadowsocks.py
+run_shadowsocks.py 7
 goto end
 
 :end
