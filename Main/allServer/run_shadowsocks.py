@@ -30,4 +30,4 @@ if __name__ == '__main__':
         pattern = pattern_list[int(sys.argv[1]) - 1]
         shadowsocks.setShadowSocks(pattern=pattern)
     except IndexError as e:
-        print('[Error]: Lack of index', e)
+        print('[Error]: Lack of index.', e)
