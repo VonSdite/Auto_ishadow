@@ -5,8 +5,6 @@ import re
 import subprocess
 import json
 import requests
-import tkinter.messagebox
-import webbrowser
 import time
 
 class ShadowSocks(object):
