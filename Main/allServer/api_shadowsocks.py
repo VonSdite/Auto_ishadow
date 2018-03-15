@@ -5,7 +5,6 @@ import re
 import subprocess
 import json
 import requests
-import time
 
 class ShadowSocks(object):
     """docstring for ShadowSocks
