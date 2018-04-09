@@ -119,13 +119,13 @@ class ShadowSocks(object):
         method = item[3].replace('\n', '')
 
         data = None
-        with open(self.ssConfigPath, "r+") as f:
+        with open(self.ssConfigPath, "r+", encoding='utf-8') as f:
             data = json.load(f)
         data['configs'][0]['server'] = server
         data['configs'][0]['server_port'] = server_port
         data['configs'][0]['password'] = password
         data['configs'][0]['method'] = method
-        with open(self.ssConfigPath, "w") as f:
+        with open(self.ssConfigPath, "w", encoding='utf-8') as f:
             json.dump(data, f, indent=4)
 
         subprocess.call('taskkill /f /im shadowsocks.exe', stdout=subprocess.PIPE)
